@@ -1,0 +1,97 @@
+{
+    "weather": {
+        "location": {
+            "-country": "london",
+            "-city": "chingoford",
+
+            "-id": "01",
+            
+            "geo": {
+                "- long ": "142.77 ",
+
+
+                "-lat": "-4.54"
+            },
+            "recorded": [{
+                    "-date": "2019-10-04T07:22:41+0000",
+                    "celcius": "+32",
+                    "text": "Cloudy",
+                    "subinfo": {
+                        "-sunrise": "06:52",
+                        "-sunset": "16;58"
+                    },
+                    "wind": {
+                        "-speed": "0.47",
+                        "-deg": "107.538"
+                    }
+                },
+                {
+                    "-date": "2019-10-05T07:22:41+0000",
+                    "celcius": "+21",
+                    "text": "Partial Cloudy",
+                    "img_src": "https://somedomain.fr/wi/412",
+                    "subinfo": {
+                        "-sunrise": "07:52",
+                        "-sunset": "17:06"
+                    },
+                    "wind": {
+                        "-speed": "0.47",
+                        "-deg": "107.538"
+                    }
+                },
+                {
+                    "-date": "2019-10-06T07:22:41+0000",
+                    "celcius": "+27",
+                    "text": "Sunny",
+                    "img_src": "https://somedomain.fr/wi/178",
+                    "subinfo": {
+                        "-sunrise": "06:04",
+                        "-sunset": "16:36"
+                    },
+                    "wind": {
+                        "-speed": "0.47",
+                        "-deg": "107.538"
+                    }
+                },
+                {
+                    "-date": "2019-10-07T07:22:41+0000",
+                    "celcius": "+30",
+                    "text": "Partial Cloud",
+                    "img_src": "https://somedomain.fr/wi/23",
+                    "subinfo": {
+                        "-sunrise": "06:04",
+                        "-sunset": "16:36"
+                    },
+                    "wind": {
+                        "-speed": "0.47",
+                        "-deg": "107.538"
+                    }
+                },
+                {
+                    "-date": "2019-10-08T07:22:41+0000",
+                    "celcius": "+18",
+                    "text": "Windy",
+                    "img_src": "https://somedomain.fr/wi/215",
+                    "subinfo": {
+                        "-sunrise": "07:12",
+                        "-sunset": "18:23"
+                    }
+                },
+                {
+                    "-date": "2019-10-09T07:22:41+0000",
+                    "celcius": "+11",
+                    "text": "Mostly Cloudy",
+                    "img_src": "https://somedomain.fr/wi/12",
+                    "subinfo": {
+                        "-sunrise": "07:49",
+                        "-sunset": "19:23"
+                    },
+                    "wind": {
+                        "-speed": "0.47",
+                        "-deg": "107.538"
+                    }
+                }
+            ]
+        }
+    }
+}
