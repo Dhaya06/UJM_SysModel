@@ -1,0 +1,164 @@
+swagger: '2.0'
+info:
+  description: This is a simple API
+  version: 1.0.0
+  title: Simple Inventory API
+  # put the contact info for your development or API team
+  contact:
+    email: you@your-company.com
+
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+
+# tags are used for organizing operations
+# tags are used for organizing operations
+tags:
+
+- name: weather
+  description: Operations available to regular developers
+
+paths:
+  /weather:
+    get:
+      tags:
+      - weather
+      summary: searches inventory
+      operationId: searchInventory
+      description: |
+        By passing in the appropriate options, you can search for
+        available inventory in the system
+      produces:
+      - application/json
+      parameters: []
+      responses:
+        200:
+          description: search results matching criteria
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/TemperatureItem'
+        400:
+          description: bad input parameter
+   
+definitions:
+  TemperatureItem:
+    type: object
+    
+    properties:
+      id:
+        type: string
+        format: uuid
+        example: temSen1215er344
+      city-name:
+        type: string
+        example: Saint-Etienne
+      date:
+        type: string
+        format: date-time
+        example: 2019-10-29T09:08:33.001Z
+      temperature-sensor:
+        $ref: '#/definitions/TemperatureSensor'
+
+  TemperatureSensor:
+    type: object
+    
+    properties:
+      id:
+        type: string
+        format: uuid
+        example: jdfu3439f-6c54
+      farhenite:
+         $ref: '#/definitions/Farhenite'
+      celcious:
+         $ref: '#/definitions/Celcious'
+      kelvin:
+         $ref: '#/definitions/Kelvin'
+     
+
+  Farhenite:
+    type: object
+    properties:
+          id:
+            type: string
+            format: uuid
+            example: f01
+          indicator:
+            type: string
+            example: °F
+          value:
+            type: string
+            example: 53.6°F
+  Kelvin:
+    type: object
+    properties:
+          id:
+            type: string
+            format: uuid
+            example: k01
+          indicator:
+            type: string
+            example: °K
+          value:
+            type: string
+            example: 285.15K
+           
+  Celcious:
+    type: object
+    properties:
+          id:
+            type: string
+            format: uuid
+            example: c01
+          indicator:
+            type: string
+            example: °C
+          value:
+            type: string
+            example: 12°C 
+
+
+
+  WeatherItem:
+    type: object
+    
+    properties:
+      id:
+        type: string
+        format: uuid
+        example: d290f1ee-6c54-4b01-90e6-d701748f0851
+      name:
+        type: string
+        example: Widget Adapter
+      releaseDate:
+        type: string
+        format: date-time
+        example: 2016-08-29T09:12:33.001Z
+      manufacturer:
+        $ref: '#/definitions/Manufacturer'
+  
+
+      
+      
+      
+  Manufacturer:
+    required:
+    - name
+    properties:
+      name:
+        type: string
+        example: ACME Corporation
+      homePage:
+        type: string
+        format: url
+        example:  https://www.acme-corp.com
+      phone:
+        type: string
+        example: 408-867-5309
+# Added by API Auto Mocking Plugin
+host: virtserver.swaggerhub.com
+basePath: /E336/TemSonsor/1.0.0
+schemes:
+ - https
+ 
+ #https://virtserver.swaggerhub.com/E336/TemSonsor/1.0.0/weather
