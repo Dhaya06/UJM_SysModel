@@ -1,4 +1,39 @@
 
+
+#perfectYamil
+weather:
+    - { id: 01,
+     geo:  { long : 142.77, lat : -4.54 },
+     country : london,city : chingford ,
+     
+     desc :
+     [ { celcius : +32 ,   text :	Cloudy , wind: [ {speed : 0.47  deg : 107.538 } ],  sub_inf : [sunrise : 06h52m sunset : 16h58m] } ]
+    }
+    - { id: 01,
+     geo:  { long : 142.77, lat : -4.54 },
+     country : london,city : chingford ,
+     
+     desc :
+     [ { celcius : +32 ,   text :	Cloudy , wind: [ {speed : 0.47  deg : 107.538 } ],  sub_inf : [sunrise : 06h52m sunset : 16h58m] } ]
+    }
+    - { id: 01,
+     geo:  { long : 142.77, lat : -4.54 },
+     country : london,city : chingford ,
+     
+     desc :
+     [ { celcius : +32 ,   text :	Cloudy , wind: [ {speed : 0.47  deg : 107.538 } ],  sub_inf : [sunrise : 06h52m sunset : 16h58m] } ]
+    }
+#perfectYamil
+
+#perfectYamil 2
+weather:
+    - { id: 01,
+     geo:  { long : 142.77, lat : -4.54 },country : london,city : chingford ,
+     
+     desc :
+     [ { celcius : +32,   text :	Cloudy , wind: [ {speed : 0.47  deg : 107.538 } ],  sub_inf : [sunrise : 06h52m sunset : 16h58m]} ]}
+#perfectYamil 2     
+
 weather:
     - { id: 01,
      geo:  { long : 142.77, lat : -4.54 },country : london,city : chingford },
