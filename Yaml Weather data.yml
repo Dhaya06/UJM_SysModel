@@ -1,0 +1,22 @@
+weather:
+    - { id: 01,
+     geo:  { long : 142.77, lat : -4.54 },country : london,city : chingford ,
+     
+     desc :
+     [ { celcius : +17,   text :	Sunny , wind: [ {speed : 0.47  deg : 107.538 } ],  sub_inf : [sunrise : 06h52m sunset : 16h58m]} ]}
+   
+    - { id: 02,
+      geo:  { long : 123.02, lat : -3.98 },country : london,city : statford ,
+     desc :
+     [ { celcius : +14,   text :	Partially CLoudy , wind: [ {speed : 0.78  deg : 105.45 } ],  sub_inf : [sunrise : 06h46m sunset : 17h02m]} ]}
+     
+    - { id: 03,
+      geo:  { long : 152.77, lat : -4.05 },country : london,city : harledson ,
+     desc :
+     [ { celcius : +9,   text :	Cloudy , wind: [ {speed : 1.02  deg : 96.66 } ],  sub_inf : [sunrise : 08h06m sunset : 15h45m]} ]}
+     
+    
+    - { id: 04,
+      geo:  { long : 172.05, lat : -4.5123 },country : london,city : buckingham ,
+     desc :
+     [ { celcius : +11,   text : rainy  , wind: [ {speed : 1.045  deg : 76.154 } ],  sub_inf : [sunrise : 08h48m sunset : 15h37m]} ]} 
