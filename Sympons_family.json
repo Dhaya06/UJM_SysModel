@@ -1,0 +1,26 @@
+// Simpsons family with their age, height, weight, distinctive features
+
+{
+"simpons-family" : 
+    { "father":{
+    "name" :"simpons",
+    "age":45,
+    "height":"143cm",
+    "weight":"65kg"},
+    "mother":{
+        "name" :"maggy",
+        "age":48,
+        "height":"124cm",
+        "weight":"49kg"},
+    "son":{
+        "name" :"mario",
+        "age":18,
+        "height":"122cm",
+        "weight":"41kg"},
+    "daughter":{
+        "name" :"dally",
+        "age":12,
+        "height":"83cm",
+        "weight":"28kg"}
+}
+}
