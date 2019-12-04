@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<today_schedule date="11.11.2019">
+  <schedules>
+        <schedule>	
+                <time>06:30 </time>
+                <task>Wake up</task>
+        </schedule>
+        <schedule>	
+                <time>06:45 </time>
+                <task>Fresh up</task>
+        </schedule>
+        <schedule>	
+                <time>07:00 </time>
+                <task>Dress and get ready</task>
+        </schedule>
+        <schedule>	
+                <time>07:10</time>
+                <task>Prepare and eat breakfast</task>
+        </schedule>
+        <schedule>	
+                <time>07:30 </time>
+                <task>Leave home</task>
+        </schedule>
+        <schedule>	
+                <time>07:55 </time>
+                <task>Reach Univeersity</task>
+        </schedule>
+        <schedule>	
+                <time>08:00</time>
+                <task>Start of System Modelling Class</task>
+        </schedule>
+        <schedule>	
+                <time>10:00</time>
+                <task>Break</task>
+        </schedule>
+        <schedule>	
+                <time>10:30</time>
+                <task>end of Break</task>
+        </schedule>
+        <schedule>	
+                <time>12:00</time>
+                <task>end of class</task>
+        </schedule>
+        <schedule>	
+                <time>12:45</time>
+                <task>Reach appartment</task>
+        </schedule>
+        <schedule>	
+                <time>13:15</time>
+                <task>Prepare and eat lunch</task>
+        </schedule>
+        <schedule>	
+                <time>13:30</time>
+                <task>Leave room</task>
+        </schedule>
+        <schedule>	
+                <time>14:00</time>
+                <task>Reach university class</task>
+        </schedule>
+        <schedule>	
+                <time>18:30</time>
+                <task>End of class</task>
+        </schedule>
+        <schedule>	
+                <time>19:35</time>
+                <task>Reach Home</task>
+        </schedule>
+        <schedule>	
+                <time>20:30</time>
+                <task>Project work</task>
+        </schedule>
+        <schedule>	
+                <time>23:30</time>
+                <task>Have dinner</task>
+        </schedule>
+        <schedule>	
+                <time>00:00</time>
+                <task>Go to sleep</task>
+        </schedule>
+  </schedules>
+	
+	
+</today_schedule>

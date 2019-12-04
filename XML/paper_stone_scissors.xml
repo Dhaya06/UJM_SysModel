@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<paper_scissor_stone>
+	<player_list desc="list of players">
+	<p1> simpons</p1>
+	<p2> maggy</p2>
+	</player_list>
+	<rounds>
+		<round no="1">
+			<player name="simpon" age="45">
+				<selected>stone</selected>
+				<win>0</win>
+				<lose>1</lose>
+				<points>0</points>
+			</player>
+			<player name="maggy" age="48">
+				<selected>paper</selected>
+				<win>1</win>
+				<lose>0</lose>
+				<points>15p</points>
+			</player>
+		</round>
+		<round no="12">
+			<player name="simpon" age="45">
+				<selected>stone</selected>
+				<win>1</win>
+				<lose>1</lose>
+				<points>15p</points>
+			</player>
+			<player name="maggy" age="48">
+				<selected>scissor</selected>
+				<win>1</win>
+				<lose>1</lose>
+				<points>15p</points>
+			</player>
+		</round>
+		<round no="3">
+			<player name="simpon" age="45">
+				<selected>scissor</selected>
+				<win>1</win>
+				<lose>2</lose>
+				<points>15</points>
+			</player>
+			<player name="maggy" age="48">
+				<selected>stone</selected>
+				<win>2</win>
+				<lose>1</lose>
+				<points>30p</points>
+			</player>
+		</round>
+	</rounds>
+	<game_summary>
+	  <win>maggy</win>
+		<total_points>30</total_points>
+		<round_won>2</round_won>
+	</game_summary>
+</paper_scissor_stone>
