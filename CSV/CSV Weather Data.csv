@@ -1,21 +1,8 @@
-Person ID, Person Name, Age, Address, Height, Weight
-"101", "John", "23", ""34/sas Google street  Saint eti"", "54","sw"
-"102", "Smith", "21", ""34/sas Google street  Saint eti"", "54","sw"
-"103", "Mone", "26", ""34/sas Google street  Saint eti"", "54","sw"
-"104", "Anne", "27", ""34/sas Google street  Saint eti"", "54","sw"
-"105", "George", "21", ""34/sas Google street  Saint eti"", "54","sw"
-"106", "Charter", "18", ""34/sas Google street  Saint eti"", "54","sw"
-"107", "Dawin", "26", ""34/sas Google street  Saint eti"", "54","sw"
-"108", "Maxy", "28", ""34/sas Google street  Saint eti"", "54","sw"
-"109", "Will", "36", ""34/sas Google street  Saint eti"", "54","sw"
-"110", "Haldy", "41", ""34/sas Google street  Saint eti"", "54","sw"
-"111", "Wanny", "20", ""34/sas Google street  Saint eti"", "54","sw"
 
-
--date,celcius,text,subinfo/-sunrise,subinfo/-sunset,wind/-speed,wind/-deg,img_src
-2019-10-04T07:22:41+0000,+32,Cloudy,06:52,16;58,0.47,107.538,
-2019-10-05T07:22:41+0000,+21,Partial Cloudy,07:52,17:06,0.47,107.538,https://somedomain.fr/wi/412
-2019-10-06T07:22:41+0000,+27,Sunny,06:04,16:36,0.47,107.538,https://somedomain.fr/wi/178
-2019-10-07T07:22:41+0000,+30,Partial Cloud,06:04,16:36,0.47,107.538,https://somedomain.fr/wi/23
-2019-10-08T07:22:41+0000,+18,Windy,07:12,18:23,,,https://somedomain.fr/wi/215
-2019-10-09T07:22:41+0000,+11,Mostly Cloudy,07:49,19:23,0.47,107.538,https://somedomain.fr/wi/12
+date,celcius,text,subinfo-sunrise,subinfo-sunset,wind-speed,wind-deg,img_src
+2019-10-04T07:22:41+0000,32,Cloudy,06:52,16;58,0.7,107.538,https://somedomain.fr/wi/178
+2019-10-05T07:22:41+0000,21,Partial Cloudy,07:52,17:06,0.89,107.538,https://somedomain.fr/wi/412
+2019-10-06T07:22:41+0000,27,Sunny,06:04,16:36,1,107.538,https://somedomain.fr/wi/178
+2019-10-07T07:22:41+0000,30,Partial Cloud,06:04,16:36,0.21,107.538,https://somedomain.fr/wi/23
+2019-10-08T07:22:41+0000,18,Windy,07:12,18:23,12,145,https://somedomain.fr/wi/215
+2019-10-09T07:22:41+0000,11,Mostly Cloudy,07:49,19:23,0.47,107.538,https://somedomain.fr/wi/12

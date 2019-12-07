@@ -1,0 +1,9 @@
+K:\Masters UJM\Semester 1\Systemmodeling\Git WorkPlace\Softwares\Image Encoder\Image Encoder\bin\Release\Image Encoder.exe.config
+K:\Masters UJM\Semester 1\Systemmodeling\Git WorkPlace\Softwares\Image Encoder\Image Encoder\bin\Release\Image Encoder.exe
+K:\Masters UJM\Semester 1\Systemmodeling\Git WorkPlace\Softwares\Image Encoder\Image Encoder\bin\Release\Image Encoder.pdb
+K:\Masters UJM\Semester 1\Systemmodeling\Git WorkPlace\Softwares\Image Encoder\Image Encoder\obj\Release\Image_Encoder.Form1.resources
+K:\Masters UJM\Semester 1\Systemmodeling\Git WorkPlace\Softwares\Image Encoder\Image Encoder\obj\Release\Image_Encoder.Properties.Resources.resources
+K:\Masters UJM\Semester 1\Systemmodeling\Git WorkPlace\Softwares\Image Encoder\Image Encoder\obj\Release\Image Encoder.csproj.GenerateResource.Cache
+K:\Masters UJM\Semester 1\Systemmodeling\Git WorkPlace\Softwares\Image Encoder\Image Encoder\obj\Release\Image Encoder.exe.licenses
+K:\Masters UJM\Semester 1\Systemmodeling\Git WorkPlace\Softwares\Image Encoder\Image Encoder\obj\Release\Image Encoder.exe
+K:\Masters UJM\Semester 1\Systemmodeling\Git WorkPlace\Softwares\Image Encoder\Image Encoder\obj\Release\Image Encoder.pdb

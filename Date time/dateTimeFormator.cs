@@ -7,8 +7,8 @@ public class Program
     {
         public static void Main()
         {
-            var nowDate=DateTime.Now;
-            Console.WriteLine( nowDate.ToString("MM/dd/yyyy"));
+            var nowDate=DateTime.Now; // getting current time
+            Console.WriteLine( nowDate.ToString("MM/dd/yyyy")); //these functions will manipulate date format
             Console.WriteLine( nowDate.ToString("dddd, dd MMMM yyyy"));
             Console.WriteLine( nowDate.ToString("MM/dd/yyyy HH:mm"));
             Console.WriteLine( nowDate.ToString("MM/dd/yyyy hh:mm tt"));
