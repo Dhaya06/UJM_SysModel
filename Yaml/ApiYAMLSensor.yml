@@ -3,7 +3,7 @@ info:
   description: This is a simple API
   version: 1.0.0
   title: Simple Inventory API
-  # put the contact info for your development or API team
+  # put the contact info for your development or API team GET /weather/{id_of_the_sensor}
   contact:
     email: you@your-company.com
 
@@ -40,16 +40,41 @@ paths:
               $ref: '#/definitions/TemperatureItem'
         400:
           description: bad input parameter
-   
+  /weather/{sensor_id}:
+    get:
+      tags:
+      - weather
+      summary: seargetBySensorID
+      description: |
+        By passing in the appropriate options, you can search for
+        available inventory in the system
+      produces:
+      - application/json
+      parameters:
+      - name: sensor_id
+        in: path
+        description: id of the sensor. 
+        required: true
+        type: string
+      responses:
+        200:
+          description: search results matching criteria
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Farhenite'
+        400:
+          description: bad input parameter
+  
 definitions:
   TemperatureItem:
     type: object
     
     properties:
-      id:
+      sensor_id:
         type: string
         format: uuid
-        example: temSen1215er344
+        example: 12
       city-name:
         type: string
         example: Saint-Etienne
@@ -82,7 +107,7 @@ definitions:
           id:
             type: string
             format: uuid
-            example: f01
+            example: 12
           indicator:
             type: string
             example: °F
@@ -137,10 +162,6 @@ definitions:
       manufacturer:
         $ref: '#/definitions/Manufacturer'
   
-
-      
-      
-      
   Manufacturer:
     required:
     - name
@@ -160,5 +181,3 @@ host: virtserver.swaggerhub.com
 basePath: /E336/TemSonsor/1.0.0
 schemes:
  - https
- 
- #https://virtserver.swaggerhub.com/E336/TemSonsor/1.0.0/weather
