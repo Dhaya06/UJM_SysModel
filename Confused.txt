@@ -1,0 +1,2 @@
+#in json Schema editing Firware api
+to have a list of weather forecast for multiple slots during the day

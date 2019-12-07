@@ -1,0 +1,208 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://weather/weather.json",
+    "type": "object",
+    "title": "wether schema",
+   "properties": {
+     "coord": {
+       "type": "object",
+       "title": "The Coordination details",
+       "required": [
+         "lon",
+         "lat"
+       ],
+       "properties": {
+         "lon": {
+           "type": "number"
+         },
+         "lat": {
+           "type": "number"    
+         }
+       }
+     },
+     "weather": {
+       "type": "array",
+       "title": "weather object ",
+       "items": {
+         "type": "object",
+         "properties": {
+           "id": {
+             "type": "integer",
+             "title": "The ID of object"
+           },
+           "main": {
+             "type": "string",
+             "title": "main details of the weather",
+             "examples": ["Rainy"],
+             "enum": [
+                "rainfall",
+                "Clouds",
+                "highTemperature",
+                "lowTemperature",
+                "heatWave",
+                "coldWave",
+                "ice",
+                "snow",
+                "wind",
+                "fog",
+                "flood",
+                "tsunami",
+                "tornado",
+                "tropicalCyclone",
+                "hurricane",
+                "snow/ice",
+                "thunderstorms",
+                "coastalEvent",
+                "forestFire",
+                "avalanches",
+                "rain/flood"
+              ]
+           },
+           "description": {
+             "type": "string",
+             "examples": ["Heavy Rain"]
+          },
+          "icon": {
+            "type": "string",
+            "title": "icon name",
+            "default": "default_icon.n"
+          }
+        }
+      }
+    },
+    "base": {
+     "type": "string",
+      "examples": ["stations"]
+    },
+    "main": {
+      "type": "object",
+      "title": "main object",
+      "required": [
+        "temp",
+        "pressure",
+        "humidity"
+      ],
+      "properties": {
+        "temp": {
+           "type": "number",
+           "minimum": -5,
+           "maximum": 500
+        },
+        "pressure": {
+          "type": "integer",
+          "title": "pressure details",
+          "default": 12
+        },
+        "humidity": {
+            "type": "integer"
+        },
+        "temp_min": {
+          "type": "number",
+          "title": "min temp",
+          "minimum": -5,
+          "maximum": 500,
+          "examples": [14]
+        },
+        "temp_max": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 500,
+          "examples": [
+           50
+          ]
+        }
+      }
+    },
+    "visibility": {
+      "type": "integer"
+    },
+    "wind": {
+      "type": "object",
+       "required": [
+        "speed",
+        "deg"
+      ],
+      "properties": {
+        "speed": {
+           "type": "number",
+           "minimum": 1,
+           "maximum": 20,
+          "examples": [
+            3.6
+          ]
+        },
+        "deg": {
+           "type": "integer",
+           "minimum": 0,
+           "maximum": 360
+        }
+      }
+    },
+    "clouds": {
+      "type": "object",
+      "properties": {
+        "all": {
+          "type": "integer"
+         }
+      }
+    },
+    "dt": {
+      "type": "integer"
+    },
+    "sys": {
+      "type": "object",
+      "required": [
+        "type",
+        "id",
+        "message",
+        "country",
+        "sunrise",
+        "sunset"
+      ],
+      "properties": {
+        "type": {
+          "type": "integer",
+          "default":1
+        },
+        "id": {
+          "type": "integer"
+        },
+        "message": {
+          "type": "number"
+          
+        },
+        "country": {
+          "type": "string",
+          "title": "Two letter Country Name",
+          "examples": [
+            "AU"
+          ],
+          "pattern": "[a-zA-Z]{2,}"
+        },
+        "sunrise": {
+          "type": "integer",
+          "title": "timestamp",
+          "examples": [
+            1485720272
+          ]
+        },
+        "sunset": {
+          "type": "integer"
+        }
+      }
+    },
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string",
+      "examples": [
+        "Cairns"
+      ]
+    },
+    "cod": {
+      "type": "integer"
+
+    }
+  }
+}
