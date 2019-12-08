@@ -1,0 +1,15 @@
+Third event 
+
+/search/events/event[3]
+
+id of 3rd Event
+/search/events/event[3]/@id
+
+Title of 3rd event
+/search/events/event[3]/title
+
+Title of all the event
+ /search/events/event/title
+
+Start time of Events 
+/search/events/event/start_time

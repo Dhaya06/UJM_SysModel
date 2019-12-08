@@ -1,0 +1,17 @@
+
+The temperatures at 20h the second day of forecast
+$.fcst_day_2.hourly_data.20H00.TMP2m
+
+
+The list of temperatures for the second day of forecast
+$.fcst_day_2.hourly_data.*.TMP2m
+
+
+The list of temperatures at 20h for every day of forecast
+$.*.hourly_data.20H00.TMP2m
+
+
+The condition keys when the humidity is above 65%
+$.current_condition[?(@.humidity > 65)].condition_key
+$.current_condition[?(@.humidity > 65)]
+
