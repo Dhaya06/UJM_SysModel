@@ -1,0 +1,8 @@
+
+date,celcius,text,subinfo-sunrise,subinfo-sunset,wind-speed,wind-deg,img_src
+15761924720,32,Cloudy,06:52,16;58,0.7,107.538,https://somedomain.fr/wi/178
+1576278872,21,Partial Cloudy,07:52,17:06,0.89,107.538,https://somedomain.fr/wi/412
+1576365272,27,Sunny,06:04,16:36,1,107.538,https://somedomain.fr/wi/178
+1576451673,30,Partial Cloud,06:04,16:36,0.21,107.538,https://somedomain.fr/wi/23
+1576541672,18,Windy,07:12,18:23,12,145,https://somedomain.fr/wi/215
+1576631672,11,Mostly Cloudy,07:49,19:23,0.47,107.538,https://somedomain.fr/wi/12

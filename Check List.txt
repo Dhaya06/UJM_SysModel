@@ -1,0 +1,117 @@
+## General comment
+
+OK git, good,
+
+I'd prefer a more intuitve folder sturcture: per section in the subject (json, xml, jsonschema, etc.)
+-- done
+ 
+## Screenshot load/export CSV
+-- done
+
+## Program with CSV library
+-- done
+
+## JSON today’s weather forecast
+
+modeling choices:
+
+- date ok
+- why not numbers when approriate ?
+-- done (Both with date and epoch timestamp )
+
+## JSON Simpsons family
+-- done
+
+## JSON online syntax/valid/prettify
+
+ok
+
+## JSON text editor syntax/valid/prettify
+
+ok
+
+## XML game
+-- done
+
+## XML schedule
+-- done
+
+## XML online syntax/valid/prettify
+-- done
+
+## XML text editor syntax/valid/prettify
+-- done
+
+## YAML API temp sensor list + get each
+-- done
+
+ok GET /weather
+where is GET /weather/{id_of_the_sensor}
+-- done
+
+## YAML online syntax/valid/prettify
+-- done
+
+## YAML text editor syntax/valid/prettify
+-- done
+
+## Program date and time manipulation and conversion
+-- done
+
+## Base64 convert/encode
+-- done
+
+## Base64 image
+-- done
+
+## Program Base64
+-- done
+
+## JSONPath query online tool
+-- done
+
+## JSONPath temps at 20h 2nd day
+-- done
+
+## JSONPath list of temps 2nd day
+-- done
+
+## JSONPath list of temps all days
+-- done
+
+## JSONPath condition keys when h>65%
+-- done
+
+## XPath query online tool
+-- done
+
+## XPath id 3rd event
+-- done
+
+## XPath title 3rd event
+-- done
+
+## XPath title all events
+-- done
+
+## XPath list start times
+-- done
+
+## JSONSchema of openweathermap.org
+-- done
+
+## JSONSchema extended FIWARE meteo
+-- done
+
+## Semantic Interop comments
+-- done
+
+## Program JSONSchema -> OOP Classes
+https://github.com/joelittlejohn/jsonschema2pojo/wiki/Getting-Started
+-- done
+
+## Program JSON <-> OOP Objects
+-- done
+
+## JSON-LD html page
+-- done
