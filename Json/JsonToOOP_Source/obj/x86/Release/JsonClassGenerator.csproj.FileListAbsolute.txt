@@ -1,0 +1,14 @@
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\bin\Release\JsonCSharpClassGenerator.exe.config
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\bin\Release\JsonCSharpClassGenerator.exe
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\bin\Release\JsonCSharpClassGenerator.pdb
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\bin\Release\Newtonsoft.Json.dll
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\bin\Release\System.Data.Entity.Design.PluralizationServices.dll
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\bin\Release\Xamasoft.BetterLinkLabel.dll
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\bin\Release\Xamasoft.JsonClassGenerator.dll
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\bin\Release\Xamasoft.JsonClassGenerator.pdb
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\obj\x86\Release\JsonClassGenerator.csprojResolveAssemblyReference.cache
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\obj\x86\Release\Xamasoft.JsonClassGenerator.UI.ClassGenerator.resources
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\obj\x86\Release\Xamasoft.JsonClassGenerator.UI.Properties.Resources.resources
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\obj\x86\Release\JsonClassGenerator.csproj.GenerateResource.Cache
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\obj\x86\Release\JsonCSharpClassGenerator.exe
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\obj\x86\Release\JsonCSharpClassGenerator.pdb

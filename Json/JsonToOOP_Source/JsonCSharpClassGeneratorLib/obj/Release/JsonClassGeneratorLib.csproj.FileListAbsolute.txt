@@ -1,0 +1,8 @@
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\JsonCSharpClassGeneratorLib\bin\Release\Xamasoft.JsonClassGenerator.dll
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\JsonCSharpClassGeneratorLib\bin\Release\Xamasoft.JsonClassGenerator.pdb
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\JsonCSharpClassGeneratorLib\bin\Release\Newtonsoft.Json.dll
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\JsonCSharpClassGeneratorLib\bin\Release\System.Data.Entity.Design.PluralizationServices.dll
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\JsonCSharpClassGeneratorLib\obj\Release\Xamasoft.JsonClassGenerator.Properties.Resources.resources
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\JsonCSharpClassGeneratorLib\obj\Release\JsonClassGeneratorLib.csproj.GenerateResource.Cache
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\JsonCSharpClassGeneratorLib\obj\Release\Xamasoft.JsonClassGenerator.dll
+C:\Users\user\Downloads\New folder\sourceCode\jsonclassgenerator\JsonCSharpClassGeneratorLib\obj\Release\Xamasoft.JsonClassGenerator.pdb
