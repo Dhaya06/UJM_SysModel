@@ -94,22 +94,18 @@
       ]
     }
   },
-
   "type": "object",
    "properties": {
-     
      "date":{
       "type": "string",
        "format": "date-time"
       },
       "result":{
-        "description":"wheater data for a day",
         "type":"array",
         "items":{
         "weather_alert_category": { "$ref": "#/definitions/WeatherAlertCategories" },
         "Weather-Commons": { "$ref": "#/definitions/address" }
       }
-      }
-   
+      } 
   }
 }
